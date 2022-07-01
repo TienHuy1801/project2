@@ -1,0 +1,38 @@
+.change-pass {
+  width: 100%;
+  height: 450px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &_table {
+    margin-top: 80px;
+    width: 25%;
+  }
+  &_item {
+    height: 70px;
+    &--label {
+      width: 100%;
+    }
+    &--input {
+      width: 100%;
+    }
+  }
+  &_password {
+    height: 70px;
+    &--label {
+      width: 100px;
+    }
+    &--input {
+      width: 100%;
+    }
+  }
+  &_reset {
+    text-decoration: none;
+  }
+  &_btn {
+    display: flex;
+    justify-content: center;
+  }
+}

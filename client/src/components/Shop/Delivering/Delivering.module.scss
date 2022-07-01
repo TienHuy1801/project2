@@ -1,0 +1,22 @@
+.deli-item {
+  margin-top: 20px;
+  &_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+  }
+  &--img {
+    width: 100%;
+  }
+}
+
+.accept {
+  text-align: center;
+  background-color: #28d886;
+}
+.decline {
+  text-align: center;
+  background-color: #fa4557e5;
+}

@@ -1,0 +1,32 @@
+.order-item {
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  &_attribute {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20%;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+  }
+  &_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+  }
+  &--img {
+    width: 100%;
+  }
+}
+
+.accept {
+  text-align: center;
+  background-color: #28d886;
+}
+.decline {
+  text-align: center;
+  background-color: #fa4557e5;
+}

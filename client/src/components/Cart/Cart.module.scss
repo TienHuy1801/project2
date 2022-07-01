@@ -1,0 +1,35 @@
+.cart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &_table {
+    width: 70%;
+  }
+
+  &_item {
+    &--img {
+      width: 100%;
+    }
+    &--title {
+      font-weight: 500;
+      padding-top: 40px!important;
+      padding-left: 20px!important;
+    }
+    &--text {
+      padding-top: 40px!important;
+      padding-left: 25px!important;
+    }
+    &--btn {
+      padding-top: 30px!important;
+    }
+  }
+
+  &_price {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}

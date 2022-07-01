@@ -1,0 +1,47 @@
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 1;
+  
+  background-color: rgba(97, 97, 97, 0.363);
+
+  display: flex;
+  justify-content: center;
+}
+
+.edit-product {
+  position: fixed;
+  top: 120px;
+  left: 25%;
+  z-index: 2;
+
+  background-color: white;
+  border-radius: 10px;
+
+  width: 50%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &_item {
+    width: 60%;
+    &--label {
+      width: 100%;
+    }
+    &--input {
+      width: 100%;
+    }
+  }
+
+  &_btn {
+    margin-top: 10px;
+  }
+}
